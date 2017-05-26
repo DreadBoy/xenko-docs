@@ -44,7 +44,7 @@ Given vertex buffer and declaration, a @'SiliconStudio.Xenko.Graphics.VertexBuff
 
 ```cs
 // Create a vertex layout with position and texture coordinate
-var layout = new VertexDeclaration(VertexElement.Position<Vector3>(), VertexElement.TextureCoordinate<Vector2>()) 
+var layout = new VertexDeclaration(VertexElement.Position<Vector3>(), VertexElement.TextureCoordinate<Vector2>()); 
  
 // Create the vertex buffer from an array of vertices
 var vertices = new VertexPositionTexture[vertexCount];
