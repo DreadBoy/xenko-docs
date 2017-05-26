@@ -43,10 +43,10 @@ There are two ways to add scripts to entities in Game Studio:
 
 The code below adds a script to an entity.
 
-    ```cs
-    // myEntity is an existing entity in the scene; myAsyncScript is the script you want to add to the entity
-    myEntity.Add(new myAsyncScript());
-    ``` 
+```cs
+// myEntity is an existing entity in the scene; myAsyncScript is the script you want to add to the entity
+myEntity.Add(new myAsyncScript());
+``` 
 
 ## See also
 
